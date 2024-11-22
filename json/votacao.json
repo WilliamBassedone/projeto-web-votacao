@@ -1,0 +1,28 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Alice",
+            "idade": 28,
+            "email": "alice@example.com"
+        },
+        {
+            "id": 2,
+            "nome": "Bruno",
+            "idade": 35,
+            "email": "bruno@example.com"
+        },
+        {
+            "id": 3,
+            "nome": "Carla",
+            "idade": 24,
+            "email": "carla@example.com"
+        }
+    ],
+    "projeto": {
+        "nome": "Projeto Exemplo",
+        "descricao": "Este é um projeto de exemplo para demonstração.",
+        "dataInicio": "2024-01-01",
+        "dataFim": "2024-12-31"
+    }
+}

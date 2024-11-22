@@ -1,0 +1,89 @@
+[
+    {
+        "zona": "Zona 1",
+        "secoes": [
+            {
+                "secao": "Seção 1",
+                "totalVotosValidos": 500,
+                "percentualVotosValidos": 75.5,
+                "candidatos": [
+                    { "nomeCandidato": "Candidato A", "quantidadeVotos": 200, "percentualVotos": 40 },
+                    { "nomeCandidato": "Candidato B", "quantidadeVotos": 300, "percentualVotos": 60 }
+                ]
+            },
+            {
+                "secao": "Seção 2",
+                "totalVotosValidos": 400,
+                "percentualVotosValidos": 70.5,
+                "candidatos": [
+                    { "nomeCandidato": "Candidato A", "quantidadeVotos": 150, "percentualVotos": 37.5 },
+                    { "nomeCandidato": "Candidato B", "quantidadeVotos": 250, "percentualVotos": 62.5 }
+                ]
+            }
+        ]
+    },
+    {
+        "zona": "Zona 2",
+        "secoes": [
+            {
+                "secao": "Seção 1",
+                "totalVotosValidos": 300,
+                "percentualVotosValidos": 80,
+                "candidatos": [
+                    { "nomeCandidato": "Candidato A", "quantidadeVotos": 120, "percentualVotos": 40 },
+                    { "nomeCandidato": "Candidato B", "quantidadeVotos": 180, "percentualVotos": 60 }
+                ]
+            },
+            {
+                "secao": "Seção 2",
+                "totalVotosValidos": 400,
+                "percentualVotosValidos": 70.5,
+                "candidatos": [
+                    { "nomeCandidato": "Candidato A", "quantidadeVotos": 150, "percentualVotos": 37.5 },
+                    { "nomeCandidato": "Candidato B", "quantidadeVotos": 250, "percentualVotos": 62.5 }
+                ]
+            },
+            {
+                "secao": "Seção 3",
+                "totalVotosValidos": 400,
+                "percentualVotosValidos": 70.5,
+                "candidatos": [
+                    { "nomeCandidato": "Candidato A", "quantidadeVotos": 150, "percentualVotos": 37.5 },
+                    { "nomeCandidato": "Candidato B", "quantidadeVotos": 250, "percentualVotos": 62.5 }
+                ]
+            }
+        ]
+    },
+    {
+        "zona": "Zona 3",
+        "secoes": [
+            {
+                "secao": "Seção 1",
+                "totalVotosValidos": 300,
+                "percentualVotosValidos": 80,
+                "candidatos": [
+                    { "nomeCandidato": "Candidato A", "quantidadeVotos": 120, "percentualVotos": 40 },
+                    { "nomeCandidato": "Candidato B", "quantidadeVotos": 180, "percentualVotos": 60 }
+                ]
+            },
+            {
+                "secao": "Seção 2",
+                "totalVotosValidos": 400,
+                "percentualVotosValidos": 70.5,
+                "candidatos": [
+                    { "nomeCandidato": "Candidato A", "quantidadeVotos": 150, "percentualVotos": 37.5 },
+                    { "nomeCandidato": "Candidato B", "quantidadeVotos": 250, "percentualVotos": 62.5 }
+                ]
+            },
+            {
+                "secao": "Seção 3",
+                "totalVotosValidos": 400,
+                "percentualVotosValidos": 70.5,
+                "candidatos": [
+                    { "nomeCandidato": "Candidato A", "quantidadeVotos": 150, "percentualVotos": 37.5 },
+                    { "nomeCandidato": "Candidato B", "quantidadeVotos": 250, "percentualVotos": 62.5 }
+                ]
+            }
+        ]
+    }
+]

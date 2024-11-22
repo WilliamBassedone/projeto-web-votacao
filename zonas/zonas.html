@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zonas e Seções</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="zonas.css">
+</head>
+
+<body>
+    <div class="container my-5">
+        <h1>Resultados por Zona e Seção</h1>
+
+        <!-- Filtro -->
+        <div class="mb-4">
+            <label for="zonaSelect" class="form-label">Filtrar por Zona:</label>
+            <select id="zonaSelect" class="form-select">
+                <option value="">Todas as Zonas</option>
+                <!-- Opções preenchidas dinamicamente -->
+            </select>
+        </div>
+
+        <!-- Loader -->
+        <div id="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <p>Carregando...</p>
+        </div>
+
+        <!-- Accordion -->
+        <div class="accordion" id="resultsAccordion">
+            <!-- Conteúdo gerado dinamicamente -->
+        </div>
+
+        <!-- Paginação -->
+        <nav aria-label="Navegação de página" class="mt-4">
+            <ul id="pagination" class="pagination justify-content-center">
+                <!-- Botões gerados dinamicamente -->
+            </ul>
+        </nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="zonas.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload e Envio de JSON com AJAX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Envie seu Arquivo JSON</h2>
+        <form id="uploadForm">
+            <div class="mb-3">
+                <label for="arquivo" class="form-label">Escolha o arquivo JSON</label>
+                <input class="form-control" type="file" id="arquivo" accept=".json" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Arquivo JSON</button>
+        </form>
+    </div>
+
+    <!-- Incluindo o arquivo JavaScript externo -->
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
